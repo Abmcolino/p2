@@ -1,0 +1,167 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #df9d5b;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header1{
+            background-color: orange;
+            color: #fff;
+        }
+       
+
+        .header2{
+            background-color: red;
+            color: #fff;
+        }
+
+        .header3{
+            background-color: rgb(72, 72, 214);
+            color: #fff;
+        }
+
+
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-color: #fff;
+        }
+     
+
+        
+        main {
+            flex: 1; /* Para que el contenido principal ocupe todo el espacio restante */
+            display: flex; /* Utilizamos flexbox */
+        }
+        main section {
+            flex: 1;
+            margin-left: 20px; /* Ajusta el margen según tus preferencias */
+            padding-bottom: 20px; /* Margen inferior entre la sección 2 y el footer */
+
+        }
+
+        .normal-table {
+          border-collapse: collapse;
+          width: 100%;
+          background-color: #fff; /* Fondo blanco */
+    margin-right: 20px; /* Margen por la derecha */
+    margin-bottom: 20px; /* Margen por debajo */
+      }
+      
+      .normal-table th,
+      .normal-table td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: left;
+          background-color: #fff; /* Fondo blanco */
+
+      }
+       
+          /* Estilos para las celdas de la tabla */
+          td, th {
+            border: 1px solid #dddddd; /* Borde de las celdas */
+            padding: 8px; /* Espaciado interno */
+            text-align: left; /* Alineación del texto */
+          }
+            th {
+            font-weight: bold; /* Texto en negrita */
+          }
+
+          th:first-child, td:first-child {
+            font-style: italic;
+        }
+        
+        /* Estilos para los cuatro primeros equipos */
+        tr:nth-child(-n+4) {
+            background-color: lightgreen;
+        }
+        
+        /* Estilos para los dos siguientes equipos */
+        tr:nth-child(5), tr:nth-child(6) {
+            background-color: lightpink;
+        }
+        
+        /* Estilos para los equipos del 7 al 17 */
+        tr:nth-child(n+7):nth-child(-n+17) {
+            background-color: yellow;
+        }
+        
+        /* Estilos para los tres últimos equipos */
+        tr:nth-last-child(-n+3) {
+            background-color: red;
+        }
+        footer{
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        margin-top: 5rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+       
+        width: 100%; /* Ancho del footer */
+    }
+
+
+    .image-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .image-container img {
+        width: 300px;
+        margin-right: 20px;
+      }
+      .text-container {
+        flex: 1;
+      }
+
+      .image-container-ultima {
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+        margin-right: 20px;
+      }
+      .image-container-ultima img {
+        width: 300px;
+        flex:1
+        margin-left: 20px;
+      }
+      .text-container {
+        flex: 1;
+
+      }
+
+
+
+
+  

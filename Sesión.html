@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>TodoFútbol</title>
+</head>
+<body>
+    <header class="header1">
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Preguntas para la Revista de Fútbol</legend>
+                <p>
+                    <label for="name_id">Nombre:</label><br>
+                    <input type="text" name="name" id="name_id" required>
+                </p>
+                <p>
+                    <label for="email_id">Email:</label><br>
+                    <input type="email" name="email" id="email_id">
+                </p>
+                <p>
+                    <label for="fav_team_id">Equipo de fútbol favorito:</label><br>
+                    <input type="text" name="fav_team" id="fav_team_id">
+                </p>
+                <p>
+                    <label for="fav_player_id">Jugador favorito:</label><br>
+                    <input type="text" name="fav_player" id="fav_player_id">
+                </p>
+                <p>
+                    <label for="subscribe_id">¿Te gustaría suscribirte a nuestra revista?</label><br>
+                    <input type="checkbox" name="subscribe" id="subscribe_id">
+                </p>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        Alberto Martín Colino &copy;2024
+    </footer>
+</body>
+</html>
